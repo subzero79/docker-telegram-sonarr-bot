@@ -1,8 +1,10 @@
+*Docker Telegram Sonarr Bot*
+
 Docker image based for running this telegram bot for sonarr 
 
 https://github.com/onedr0p/telegram-sonarr-bot
 
-How to run
+_How to run_
 
 Create this file /some/path/config.json with this content
 
