@@ -28,4 +28,4 @@ Create this file /some/path/config.json with this content
 
 Most important, change the telegram bot token, the sonarr api key and the hostname, fill the rest of the settings if you use ssl and/or authentication
 
-```docker run -d --restart=always subzero79/docker-telegram-sonarr-bot -v /some/path:/config```
+```docker run -d --name=telegram-bot --restart=always subzero79/docker-telegram-sonarr-bot -v /some/path:/config```
