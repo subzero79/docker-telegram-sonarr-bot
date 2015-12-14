@@ -10,21 +10,22 @@ Create this file /some/path/config.json with this content
 
 ```
 {
-        "telegram": {
-                "botToken": "14315465:XxXXXXXXXXX"
-        },
-        "sonarr": {
-                "hostname": "10.10.10.12",
-                "apiKey": "52150234569d84ad391719fc703bba5ba",
-                "port": 8989,
-                "urlBase": "",
-                "ssl": false,
-                "username": "",
-                "password": ""
-        }
+  "telegram": {
+    "botToken": "11111:XXXXX"
+  },
+  "sonarr": {
+    "hostname": "10.1.1.20",
+    "apiKey": "2345jdsgo639562kfsad9l04q5qfm",
+    "port": 8989,
+    "urlBase": "",
+    "ssl": false,
+    "username": "",
+    "password": ""
+  },
+  "debug": false
 }
 ```
 
-Most important, change the telegram bot token and the sonarr api key, fill the rest of the settings if you use ssl and/or authentication
+Most important, change the telegram bot token, the sonarr api key and the hostname, fill the rest of the settings if you use ssl and/or authentication
 
 ```docker run -d --restart=always subzero79/docker-telegram-sonarr-bot -v /some/path:/config```
