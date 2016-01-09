@@ -15,7 +15,8 @@ Create this file /some/path/config.json with this content
   },
   "bot": {
     "password": "the_pass",
-    "owner": 0
+    "owner": 0,
+    "maxResults": 15
   },
   "sonarr": {
     "hostname": "10.1.1.20",
