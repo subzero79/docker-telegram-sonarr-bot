@@ -18,4 +18,3 @@ RUN apk del unzip wget
 VOLUME /config
 
 CMD ["/bin/ash","/root/startup.sh"]
-#CMD ["supervisord","-c","/etc/supervisord.conf"]
