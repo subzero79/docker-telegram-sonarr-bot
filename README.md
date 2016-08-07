@@ -6,7 +6,7 @@ https://github.com/onedr0p/telegram-sonarr-bot
 
 **How to run**
 
-Create this file /some/path/config.json with this content
+Create this file /some/path/config.json with this content:
 
 ```
 {
